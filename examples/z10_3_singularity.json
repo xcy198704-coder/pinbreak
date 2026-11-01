@@ -1,0 +1,8 @@
+{
+  "location": "bore mouth, z = 10.30 mm (contact edge)",
+  "note": "Historical artifact, 2026-09. Normalised stress 156.7 -> 248.4 MPa/N when the element size was halved. Reported as 3274 MPa at the finest mesh; it is a contact-edge singularity, not a notch. Kept as a regression fixture: any change that makes this case pass as CONVERGED is a regression against reality.",
+  "samples": [
+    { "h": 0.09, "sigma_max": 783.5, "force": 5.0 },
+    { "h": 0.045, "sigma_max": 1242.0, "force": 5.0 }
+  ]
+}

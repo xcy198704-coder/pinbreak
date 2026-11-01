@@ -1,0 +1,9 @@
+# Normalise line endings: this repo is used from Windows and Linux alike,
+# and the hook JSON / Python entry points must not carry CRLF.
+* text=auto eol=lf
+
+*.png binary
+*.gif binary
+*.mp4 binary
+*.npz binary
+*.frd binary

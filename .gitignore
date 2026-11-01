@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Solver artifacts (large, regenerable)
+cases/
+out/*.frd
+out/*.dat
+out/*.sta
+out/*.cvg
+*.log
+
+# Reports (regenerated from source data)
+report/*.html
+
+# OS
+.DS_Store
+Thumbs.db
+
+# --- DO NOT IGNORE .kiro ---
+# The .kiro directory (specs, hooks, steering) is part of the deliverable.
+# Never add it to this file.

@@ -1,0 +1,8 @@
+{
+  "location": "SYNTHETIC TEST FIXTURE - not a measurement",
+  "note": "Synthetic data used only to exercise the CONVERGED branch (AC2). It is not a real result and must never be cited as one. Real hotspots are recorded as their own JSON files next to the case manifest.",
+  "samples": [
+    { "h": 0.09, "sigma_max": 337.5, "force": 5.0 },
+    { "h": 0.045, "sigma_max": 340.5, "force": 5.0 }
+  ]
+}

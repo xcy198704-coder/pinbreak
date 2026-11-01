@@ -1,0 +1,16 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "convergence-gate-selfcheck",
+      "description": "Re-run the convergence gate acceptance checks whenever the gate or its fixtures change. The gate decides whether a stress peak may be reported at all, so a silent regression here would invalidate every number downstream.",
+      "trigger": "PostFileSave",
+      "matcher": "(tools[\\\\/]|examples[\\\\/]).*\\.(py|json)$",
+      "action": {
+        "type": "command",
+        "command": "python tools/selfcheck.py"
+      },
+      "timeout": 60
+    }
+  ]
+}
